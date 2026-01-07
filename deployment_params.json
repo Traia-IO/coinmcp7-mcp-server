@@ -1,0 +1,54 @@
+{
+  "github_url": "https://github.com/Traia-IO/coinmcp7-mcp-server",
+  "mcp_server": {
+    "name": "coinmcp7-mcp",
+    "description": "Coinmcp7 coinmcp7 coinmcp7 coinmcp7 coinmcp7 coinmcp7 coinmcp7 ",
+    "server_type": "streamable-http",
+    "requires_api_key": true,
+    "api_key_header": "Authorization",
+    "api_keys": [
+      "COINMCP7_API_KEY"
+    ],
+    "capabilities": [
+      "coinmarketcap_id_map",
+      "exchange_assets",
+      "coinmarketcap_id_map_10a0",
+      "coinmarketcap_id_map_0es7",
+      "key_info",
+      "postman_conversion_v1",
+      "cmc_crypto_fear_and_greed_historical",
+      "cmc_crypto_fear_and_greed_latest",
+      "listings_latest",
+      "listings_new",
+      "trending_gainers_losers",
+      "trending_latest",
+      "trending_most_visited",
+      "market_pairs_latest",
+      "quotes_historical",
+      "quotes_latest",
+      "quotes_historical_k8s0",
+      "quotes_latest_d46k",
+      "market_pairs_latest_v2",
+      "ohlcv_historical_v2",
+      "ohlcv_latest_v2",
+      "price_performance_stats_v2",
+      "quotes_historical_v2",
+      "quotes_latest_v2",
+      "quotes_historical_v3",
+      "fcas_listings_latest_deprecated",
+      "fcas_quotes_latest_deprecated"
+    ],
+    "payment_protocol": "402",
+    "dual_mode": true,
+    "dual_mode_description": "Supports both authenticated (free with API key) and payment (402 protocol) modes"
+  },
+  "deployment_method": "cloud_run",
+  "gcp_project_id": "traia-mcp-servers",
+  "gcp_region": "us-central1",
+  "tags": [
+    "coinmcp7",
+    "api",
+    "mcp"
+  ],
+  "ref": "main"
+}
